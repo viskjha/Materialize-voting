@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/Registration.css" />
+    <link type="text/css" rel="stylesheet" href="css/nav.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="transparent nav-wrapper z-depth-0">
+            <div class="nav-wrapper">
+                <a href="#" data-activates="mobile-nav" class="button-collapse show-on-large">
+                    <i class="material-icons">menu</i>
+                </a>
+                <a href="index.html" class="brand-logo">Home</a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="active">
+                        <a href="index.html">Demo1</a>
+                    </li>
+                    <li>
+                        <a href="logos.html">Demo2</a>
+                    </li>
+                    <li>
+                        <a href="gaming.html">Demo3</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <ul id="mobile-nav" class="side-nav">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="img/ocean.jpg" alt="">
+                        </div>
+                        <a href="#">
+                            <img src="img/person1.jpg" alt="" class="circle">
+                        </a>
+                        <a href="#">
+                            <span class="name white-text">Vishal</span>
+                        </a>
+                        <a href="#">
+                            <span class="email white-text">vishal@gmail.com</span>
+                        </a>
+                    </div>
+                </li>
+    
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li class="bold"><a class="collapsible-header waves-effect waves-teal"><i
+                                    class="material-icons prefix">home</i>Dashboard</a>
+    
+                        </li>
+                        <li class="bold"><a class="collapsible-header waves-effect waves-teal"><i
+                                    class="material-icons prefix">description</i>Voters</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#!"><i class="material-icons prefix">portrait</i>Add a voter</a></li>
+                                    <li><a href="#!"><i class="material-icons prefix">web_asset</i>Ballot Code</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="bold"><a class="collapsible-header waves-effect waves-teal"><i
+                                    class="material-icons prefix">people</i>Candidates</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#!"><i class="material-icons prefix">person_add</i>Add a Candidate</a></li>
+                                    <li><a href="#!"><i class="material-icons prefix">cloud_queue</i>Candidate List</a></li>
+    
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="bold active"><a class="collapsible-header waves-effect waves-teal"><i
+                                    class="material-icons prefix">view_list</i>View Result</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#!"><i class="material-icons prefix">email</i>Demo1</a></li>
+                                    <li><a href="#"><i class="material-icons prefix">email</i>Demo2</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="bold active"><a class="collapsible-header waves-effect waves-teal"><i
+                                    class="material-icons prefix">lock</i>Change
+                                Password</a>
+                        </li>
+                        <li class="bold active"><a class="collapsible-header waves-effect waves-teal" href="login.html"><i
+                                    class="material-icons prefix">exit_to_app</i>Logout</a>
+                        </li>
+                    </ul>
+                </li>
+    
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="bg-image">
+        <section class="section section-login">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m8 offset-m2 l6 offset-l3">
+                        <div class="card-panel login pink lighten-5 black-text center">
+                            <h2>Register</h2>
+                            <form action="index.html">
+                                <div class="input-field">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="name" type="text">
+                                    <label for="name" class="black-text">Enter First Name</label>
+                                </div>
+        
+                                <div class="input-field">
+                                    <i class="material-icons prefix">email</i>
+                                    <input id="email" type="email" class="validate">
+                                    <label data-error="Invalid" data-success="valid" for="email"
+                                        class="black-text">Email</label>
+                                </div>
+        
+        
+                                <div class="input-field">
+                                    <i class="material-icons prefix">phone</i>
+                                    <input id="phone" type="tel">
+                                    <label for="phone" class="black-text">Phone Number</label>
+                                </div>
+        
+                                <div class="input-field">
+                                    <i class="material-icons prefix">today</i>
+                                    <input type="text" class="datepicker" id="date">
+                                    <label for="date" class="black-text">Choose a Date</label>
+                                </div>
+        
+                                <div class="input-field">
+                                    <i class="material-icons prefix">lock</i>
+                                    <input id="password" type="password">
+                                    <label for="password" class="black-text">Enter Password</label>
+                                </div>
+        
+                                <div class="input-field">
+                                    <i class="material-icons prefix">lock</i>
+                                    <input id="password" type="password">
+                                    <label for="password" class="black-text">Conform Password</label>
+                                </div>
+        
+                                <p>
+                                    <i class="material-icons prefix">wc</i>
+                                    <input class="with-gap" type="radio" name="gender" id="male">
+                                    <label for="male" class="black-text">Male</label>
+        
+                                    <input class="with-gap" type="radio" name="gender" id="female">
+                                    <label for="female" class="black-text">Female</label>
+                                </p>
+        
+                                <p>
+                                    <i class="material-icons prefix">wc</i>
+                                    <input class="with-gap" type="radio" name="gender" id="male">
+                                    <label class="black-text" for="male">Option1</label>
+        
+                                    <input class="with-gap" type="radio" name="gender" id="female">
+                                    <label class="black-text" for="female">Option2</label>
+                                </p>
+        
+                                <div class="file-field input-field">
+                                    <div class="btn">
+                                        <span>Upload File</span>
+                                        <input type="file">
+                                    </div>
+                                    <div class="file-path-wrapper">
+                                        <input type="text" class="file-path">
+                                    </div>
+                                </div>
+        
+                                <input type="submit" value="Login" class="btn btn-large btn-extended teal darken-4 black-text">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Preloader -->
+    <div class="loader preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Init Sidenav
+            $('.button-collapse').sideNav();
+
+
+            $('.section').hide();
+
+            setTimeout(function () {
+                $(document).ready(function () {
+                    // Show sections
+                    $('.section').fadeIn();
+
+                    // Hide preloader
+                    $('.loader').fadeOut();
+
+                });
+            }, 2000);
+
+
+        });
+    </script>
+</body>
+
+</html>
